@@ -1,0 +1,119 @@
+MODULE 1
+HTML
+Introduction to Web Development
+Overview to HTML
+Exploring Fundamental HTML Tags - I
+Exploring Fundamental HTML Tags - II
+HTML Container Tags
+Introduction to HTML5
+Exploring HTML5
+
+********************************************
+MODULE 2
+CSS
+Introduction to CSS
+Properties in CSS
+Layouts in CSS
+Adding Styling and Responsiveness
+
+********************************************
+
+MODULE 3
+Bootstrap
+Bootstrap
+Working with Bootstrap Containers
+Adding Responsiveness with Bootstrap
+
+********************************************
+
+MODULE 4
+Add Interactions Using JavaScript
+JavaScript Essentials - I
+Datatypes in JavaScript
+I/O in JavaScript
+OOPs in JavaScript
+Document Object Model
+Event Handling
+Modernize JavaScript with ES6 Features
+Strict Mode in JavaScript
+Callbacks in JavaScript
+Promises in JavaScript
+Async and await in JavaScript
+Working of This
+Browser Storage in JavaScript
+Debugging in JavaScript
+Advance JavaScript
+
+********************************************
+
+MODULE 5
+Data Structures and Algorithms
+Data Structures and Algorithms Essentials
+Sorting
+Searching
+Recursion
+Arrays
+Stacks, Queues, and Map Object
+Hash Tables
+Single Linked List and Double LL
+Circular LL / DLL
+Trees
+Sets and Heap
+Graphs
+
+********************************************
+
+MODULE 6
+Node.js
+Digital Backstage: Backend Basics
+NPM : Streamlined Workflow
+Using Node.JS Packages
+Setting up Backend
+Navigating Backend Infrastructure
+Understanding MVC
+
+********************************************
+
+MODULE 7
+MongoDB
+Databases: A Brief Introduction
+Database Management with NOSQL
+Operation on MongoDB
+Backend-Database Connection
+
+********************************************
+
+MODULE 8
+Working with ReactJS
+Overview of React
+React Features Unveiled - I
+React Features Unveiled - II
+JSX and DOM
+Virtual DOM
+React Bundlers
+React Essentials
+Exploring React components
+Variables in React
+React Lifecycle
+React Bootstrap
+Event Handling
+Create Dynamic UI: React
+Implementing Routing in React
+Dynamic Routing Exploration
+Styling in React
+Connecting Frontend with Backend
+Introduction with Hooks
+Types of Hooks
+Web Payment and Deployment
+
+********************************************
+
+Introduction to Version Control
+Fundamentals of Version Control
+Introduction to GIT
+Setup GIT
+GIT Basics
+Branching in GIT
+Branching Strategies
+
+********************************************
