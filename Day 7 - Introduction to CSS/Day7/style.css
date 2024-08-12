@@ -1,0 +1,56 @@
+/* Universal Selector */
+*{
+  
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* name selector */
+p{
+  padding: 40px;
+}
+
+/* Element ID Selector: */
+#hello1{
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  display: inline-flex;
+  text-align: center;
+  margin: 20px;
+  border-radius: 5px;
+  
+}
+
+
+/* Element Class Selector */
+.container{
+  margin-left: 300px;
+  padding: 0;
+  border: 2px solid #ccc;
+  width: 600px;
+  height: 200px;
+  display: block;
+  border-radius: 30px;
+    
+}
+
+
+/* Grouping Selector */
+h1, h2 {
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+.container h1{
+  text-align: center;
+  padding-top: 40px;
+  color: blue;
+  
+}
+.container p{  text-align: left;
+  padding-top: 20px;
+  /* padding-left: 20px; */
+  /* padding-bottom: 10px; */
+}

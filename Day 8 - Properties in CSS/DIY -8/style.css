@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  align-items: center;
+  background-image: url('image/abstract.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.auth-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  background-color: red;
+  width: 30px;
+  padding: 10px 30px;
+  transform: translateY(100%);
+  
+}
+
+.auth-buttons input[type='button'] {
+  margin-right: 10px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>    
+    <button>e!</button>
+    <section class="auth-buttons">
+      <input type="button" value="Login" id="login">
+      <input type="button" value="Create na account" id="create">
+    </section>
+    
+  </header>
+
+  <main>
+    <section class="heading">
+      <h2>Breakfast Places in Mumbai</h2>
+    </section>
+
+    <div class="content">
+      <section class="filters">
+        <h4>Filters</h4>
+        <p>Select Location:</p>
+        <select name="location" id="select">
+          <option value="0">Select Location</option>
+          <option value="cafe">Kala Ghoda</option>
+          <option value="cafe">Cafe Madras</option>
+          <option value="cafe">JW Cafe</option>
+        </select>
+
+        <p>Cuisine:</p>
+        <label class="filter-items"> 
+          <input type="checkbox"> North-Indian
+        </label>
+        <label class="filter-items">
+          <input type="checkbox"> South-Indian
+        <label class="filter-items">
+          <input type="checkbox"> Chinese
+        </label>
+        <label class="filter-items">
+          <input type="checkbox"> Fast Food
+        </label>
+        <label class="filter-items">
+          <input type="checkbox"> Street Food
+        </label>
+
+
+        <p>Cost For Two</p>
+        <label class="filter-items">
+          <input type="radio"> less than $500
+        </label>
+        <label class="filter-items">
+          <input type="radio"> $500 to $1000
+        </label>
+        <label class="filter-items">
+          <input type="radio"> $1000 to $1500
+        </label>
+        <label class="filter-items">
+          <input type="radio"> $1500 to $2000
+        </label>
+        <label class="filter-items">
+          <input type="radio"> $2000+
+        </label>
+
+        <h4>Sort</h4>
+        <label class="filter-items">
+          <input type="radio"> Price low to high
+        </label>
+        <label class="filter-items">
+          <input type="radio"> Price high to low
+        </label> 
+
+      </section>
+
+      <div class="data-sections">
+        <section class="data-section">
+          <div class="image">
+            <img src="./images/images.jpeg" alt="The Big Chill Bakery" width="100px" height="100px">
+            <div class="restaurant-info">
+              <h3>The Big Chill Bakery</h3>
+              <h5>FORT</h5>
+              <p>Shop l. Plot D, Samruddhi Complex, Chincholi ..</p>
+            </div>
+            <hr>
+            <p>Cuisines: Bakery</p>
+            <p>Cost For Two: $2700</p>
+          </div> 
+
+        </section>
+
+        <section class="data-section">
+          <div class="image">
+            <img src="./images/images.jpeg" alt="The Big Chill Bakery" width="100px" height="100px">
+            <div class="restaurant-info">
+              <h3>The Big Chill Bakery</h3>
+              <h5>FORT</h5>
+              <p>Shop l. Plot D, Samruddhi Complex, Chincholi ..</p>
+            </div>
+            <hr>
+            <p>Cuisines: Bakery</p>
+            <p>Cost For Two: $2700</p>
+          </div> 
+
+        </section>
+      </div>
+    </div>
+    
+
+  </main>
+  <footer>
+    <div class="pagination">
+      <a href="#">&laquo;</a> 
+      <a href="#">1</a> 
+      <a class="active" href="#">2</a> 
+      <a href="#">3</a> 
+      <a href="#">4</a> 
+      <a href="#">5</a> 
+      <a href="#">6</a> 
+      <a href="#">&raquo;</a> 
+    </div>
+
+  </footer>
+  
+</body>
+</html>
