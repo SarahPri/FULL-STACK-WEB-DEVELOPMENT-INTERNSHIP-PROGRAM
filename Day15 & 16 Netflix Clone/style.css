@@ -1,0 +1,432 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:sans-serif;
+  background-color:black;
+  color: #fff;
+}
+
+/* Start header style  */
+header {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(./images/KE-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a2a6f12c-a937-4822-b77e-7bec3a91b9c1_large.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 70vh;
+    
+}
+
+/* Start navbar style */
+
+nav img{
+  width: 13%;
+}
+
+.red-btn{
+  background: rgb(229, 9, 20);
+  color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  padding: 5px 17px;
+}
+
+.red-btn:hover{
+  background: rgb(193, 17, 25);
+}
+
+
+/* ===== End navbar style ==== */
+
+
+/* Start hero section */
+
+.hero-title{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.hero-first-p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero-second-p{
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+form{
+  width: 60%;
+}
+
+form #floatingInput {
+  border-color: #fff;
+  box-shadow: none;
+  border-width: medium;
+}
+
+form .form-control:focus{
+  border-color: #fff;
+  box-shadow: none;
+  border-width: medium;
+} 
+
+form .form-floating>.form-control:focus~label{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form .form-floating>.form-control:focus~label::after{
+  background-color: transparent;
+}
+
+form .form-floating{
+  width: 30%;
+}
+
+form #floatingInput{
+  background: transparent;
+}
+
+form label {
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 10px;
+}
+
+.get-started-btn {
+  height: 60px;
+  font-size: 1.5rem;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.get-started-btn::after{
+  content:"\276F";
+  margin-left:5px;
+}
+
+/* === End hero section style ==== */
+
+
+/* Common Styles for The Sections */
+.section_container{
+  border-top: 8px solid #222 ;
+  padding: 32px 16px;
+}
+.section_details{
+  text-align: center;
+}
+.section_title{
+  font-size: 3rem;
+  font-weight: 900;
+  
+
+}
+
+.section_p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  
+
+}
+/* Start enjoy section */
+.section_image_container{
+  width: 100%;
+  position: relative;
+}
+
+.section_image{
+  width: 100%;
+}
+
+/* === End enjoy section === */
+
+/* start download section */
+.section_poster_container{
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 16em;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  height: 60px;
+  padding: 0.25rem 0.6rem;
+  gap: 15px;
+}
+
+.poster_container{
+  width: 20%;
+}
+
+.poster{
+  width: 100%;
+  height: 100%;
+}
+
+.poster_details{
+  width: 60%;
+}
+.poster_details h4{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.poster_details p{
+  font-size: 12px;
+  font-weight: 400;
+  color:rgb(0, 113, 235);
+}
+.download_gif_container{
+  width: 20%;
+  height: 100%;
+}
+
+.gif{
+  width: 100%;
+  height: 100%;
+}
+
+
+.faq-section{
+  border-top:8px solid #232323;
+
+}
+
+
+/* start faq section */
+
+.faq-section h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  
+  
+}
+
+.faq-section button {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.faq-section .accordion {
+  --bs-accordion-color: rgb(255, 255, 255);
+  --bs-accordion-bg: rgb(45, 45, 45);
+  --bs-accordion-border-color: none;
+  --bs-accordion-border-radius: none;
+}
+
+.faq-section .accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.faq-section .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.faq-section .accordion-button:hover {
+  background-color: rgb(65,65,65);
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+  background-color: rgb(65,65,65);
+  color: rgb(255,255,255);
+}
+
+.faq-section .accordion-button::after {
+  content: "+";
+  background-image: none;
+  position: absolute;
+  height: 30px;
+  font-size: 50px;
+  top: 5px;
+  right: 45px;
+}
+
+.faq-section .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  transform: none;
+  content: "\00d7";
+}
+
+/* footer */
+footer{
+  border-top:8px solid #232323;
+}
+
+footer p, footer a{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer li{
+  list-style-type: none;
+}
+
+footer select{
+  background: transparent;
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+  appearance: none;
+  border-radius: 5px;
+}
+
+footer img{
+  filter: invert();
+  top: 8px;
+  left: 12px;
+}
+
+footer .arrow-down{
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  top: 15px;
+  right: -115px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  nav img {
+      width: 35%;
+  }
+
+  header {
+      height: 110vh;
+  }
+
+  form .form-floating {
+      width: 90%;
+  }
+  
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  nav img{
+    width: 25%;
+  }
+  header{
+    height: 100vh;
+  }
+  
+
+
+  
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) */
+@media (min-width: 768px){
+  nav img{
+    width: 17%
+  }
+  .hero-title,
+  .section-title{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .hero-first-p,
+  .hero-second-p,
+  .section-paragraph,
+  .faq-section h3 {
+      font-size: 1.125rem;
+  }
+
+  .section_container{
+    padding: 4rem;
+  }
+  .section_title{
+    font-size: 35px;
+  }
+  .section_p{
+    font-size: 20px;
+  }
+  .section_poster_container{
+    max-width: 26em;
+    height: 85px;
+  }
+  .poster_container{
+    width: 15%;
+  }
+  .download_gif_container{
+    width: 3rem;
+    height: 3rem;
+  }
+  .poster_details h4{
+    font-size: 18px;
+  }
+  .poster_details p{
+    font-size: 14px;
+  }
+  
+}
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) */
+@media (min-width: 1024px) {
+  .section_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+  }
+  .section_details{
+    text-align: left;
+    padding: 0 6rem;
+
+  }
+  .section_title{
+    font-size: 48px;
+  }
+  .section_p{
+    font-size: 25px;
+  }
+  .section_image_container{
+    max-width: 500px;
+    
+  }
+
+  .section_container:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  .poster_container {
+    max-width: 20em;
+    height: 100px;
+    padding: 1rem;
+    
+  } 
+
+  .poster_container{
+    width: 20%;
+  }
+  
+}
+
+
+
+
