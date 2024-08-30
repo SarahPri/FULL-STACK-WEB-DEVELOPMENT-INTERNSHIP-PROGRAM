@@ -43,3 +43,47 @@ person.greet()
 
 //Set
 // A Set is a collection of unique values. A value in a Set can occur only once, which makes Sets useful for storing unique items. Sets are iterables and maintain insertion order. 
+
+//Creating new Set
+const uniqueNumbers = new Set([1,2,3,4,4,5,5]);
+
+//Sets automatically remove duplicate values
+console.log(uniqueNumbers);
+
+//Adding a new value to the Set
+uniqueNumbers.add(6);
+console.log(uniqueNumbers);
+
+//Iterating over a set
+uniqueNumbers.forEach((num)=>{
+    console.log(num);
+})
+
+// Map
+// A Map is a collection of key-value pairs where keys can be of any data type (not just strings or Symbols). Maps remember the original insertion order of the keys.
+//creating a new Map
+const userRoles = new Map();
+
+// Adding key-value pairs to the Map
+userRoles.set("Alice", "Admin")
+userRoles.set("Bob", "Editor")
+userRoles.set("Charlie", "Viewer")
+
+//Accessing values by key
+console.log(userRoles.get("Alice"));
+
+//Checking if a key exists in the Map
+console.log(userRoles.has("Bob"));
+console.log(userRoles.has("David"));
+
+//Removing a key-value pair from the Map
+userRoles.delete("Charlie");
+console.log(userRoles);
+
+//Iterating over a Map
+userRoles.forEach((role, user)=>{
+    console.log(`${user} is an ${role}`);
+});
+
+//Getting the size of the Map
+console.log(userRoles.size);
