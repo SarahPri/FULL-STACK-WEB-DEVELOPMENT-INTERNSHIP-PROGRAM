@@ -1,5 +1,7 @@
 // Question 1: Sort the given array arr = [26, 42, 78, 18, 3] using Bubble sort.
 
+
+//Sorting
 const arr = [26, 42, 78, 18, 3]
 function bubbleSort(array){
     //Get the length of the array
