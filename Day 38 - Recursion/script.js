@@ -46,3 +46,4 @@ function checkPalindrome() {
 // reversedStr: Reverses the cleaned string.
 // Compares cleanedStr and reversedStr to check if they are the same.
 // Displays the result in the <p> element.
+
