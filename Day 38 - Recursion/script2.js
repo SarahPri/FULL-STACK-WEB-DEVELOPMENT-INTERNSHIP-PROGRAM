@@ -36,3 +36,6 @@ function towerOfHanoi(n, src_rod, des_rod, aux_rod){
 
 var n = 3;
 towerOfHanoi(n, 'A', 'C', 'B')
+
+middle index: mid = (start + end) // 2
+id = (0 + 4) // 2 = 2.
